@@ -99,7 +99,17 @@ body {
     margin-bottom: 20px;
 }
 
-.hero .btn {
+.hero .btn{
+    background: red;
+    color: white;
+}
+
+.hero .btn:hover {
+    background: #e0e0e0;
+    color: #333;
+}
+
+.btn {
     display: inline-block;
     padding: 14px 28px;
     background: white;
@@ -112,7 +122,7 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.hero .btn:hover {
+.btn:hover {
     background: #e0e0e0;
 }
 
